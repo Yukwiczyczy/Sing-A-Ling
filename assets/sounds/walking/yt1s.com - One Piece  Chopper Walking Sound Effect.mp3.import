@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/yt1s.com - One Piece  Chopper Walking Sound Effect.mp3-1a813cde5aa2d4765bb047eb3c300cdc.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/walking/yt1s.com - One Piece  Chopper Walking Sound Effect.mp3"
+dest_files=[ "res://.import/yt1s.com - One Piece  Chopper Walking Sound Effect.mp3-1a813cde5aa2d4765bb047eb3c300cdc.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

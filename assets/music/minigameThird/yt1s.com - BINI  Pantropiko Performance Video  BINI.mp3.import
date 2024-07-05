@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/yt1s.com - BINI  Pantropiko Performance Video  BINI.mp3-5773331a413ede39bc0301162478dc84.mp3str"
+
+[deps]
+
+source_file="res://assets/music/minigameThird/yt1s.com - BINI  Pantropiko Performance Video  BINI.mp3"
+dest_files=[ "res://.import/yt1s.com - BINI  Pantropiko Performance Video  BINI.mp3-5773331a413ede39bc0301162478dc84.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

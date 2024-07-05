@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/yt1s.com - BINI  Salamin Salamin Official Music Video.mp3-f0d4e1d7f95de75da837529c18d9c429.mp3str"
+
+[deps]
+
+source_file="res://assets/music/minigameThird/yt1s.com - BINI  Salamin Salamin Official Music Video.mp3"
+dest_files=[ "res://.import/yt1s.com - BINI  Salamin Salamin Official Music Video.mp3-f0d4e1d7f95de75da837529c18d9c429.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

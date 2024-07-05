@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/yt1s.com - NFlying 엔플라잉   Star Inst Lovely Runner OST Part 2.mp3-feb00ce64d28c77bd64ff6031d71e025.mp3str"
+
+[deps]
+
+source_file="res://assets/music/yt1s.com - NFlying 엔플라잉   Star Inst Lovely Runner OST Part 2.mp3"
+dest_files=[ "res://.import/yt1s.com - NFlying 엔플라잉   Star Inst Lovely Runner OST Part 2.mp3-feb00ce64d28c77bd64ff6031d71e025.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

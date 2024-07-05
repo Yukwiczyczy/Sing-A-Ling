@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Mi Variatals(note to note Mi) version whatever.mp3-4f6e30f33ab2c194ac4f0e625e42d452.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/Mi Variatals(note to note Mi) version whatever.mp3"
+dest_files=[ "res://.import/Mi Variatals(note to note Mi) version whatever.mp3-4f6e30f33ab2c194ac4f0e625e42d452.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

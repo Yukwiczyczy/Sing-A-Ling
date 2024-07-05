@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Fa(Mid note fade out) ver.1.mp3-54d268e03dcb97d5acacf8d56610fd1a.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/Fa(Mid note fade out) ver.1.mp3"
+dest_files=[ "res://.import/Fa(Mid note fade out) ver.1.mp3-54d268e03dcb97d5acacf8d56610fd1a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/5 sec do(deep ver).mp3-d254fb91ee60f013d200774dcb607c8f.mp3str"
+
+[deps]
+
+source_file="res://assets/5 sec do(deep ver).mp3"
+dest_files=[ "res://.import/5 sec do(deep ver).mp3-d254fb91ee60f013d200774dcb607c8f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

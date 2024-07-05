@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/5 sec do(mid ver).mp3-d8ef6e3defb7cb317d9609179506da6a.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/5 sec do(mid ver).mp3"
+dest_files=[ "res://.import/5 sec do(mid ver).mp3-d8ef6e3defb7cb317d9609179506da6a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

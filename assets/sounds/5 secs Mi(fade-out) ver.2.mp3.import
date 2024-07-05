@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/5 secs Mi(fade-out) ver.2.mp3-27dfacc373c0188c2250cce7bf36d5e4.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/5 secs Mi(fade-out) ver.2.mp3"
+dest_files=[ "res://.import/5 secs Mi(fade-out) ver.2.mp3-27dfacc373c0188c2250cce7bf36d5e4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

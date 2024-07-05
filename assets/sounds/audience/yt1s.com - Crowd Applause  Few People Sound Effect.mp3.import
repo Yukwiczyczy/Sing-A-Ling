@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/yt1s.com - Crowd Applause  Few People Sound Effect.mp3-72fde67ee7d0c105011a911a384e8e65.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/audience/yt1s.com - Crowd Applause  Few People Sound Effect.mp3"
+dest_files=[ "res://.import/yt1s.com - Crowd Applause  Few People Sound Effect.mp3-72fde67ee7d0c105011a911a384e8e65.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

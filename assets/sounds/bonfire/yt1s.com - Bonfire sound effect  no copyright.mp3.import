@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/yt1s.com - Bonfire sound effect  no copyright.mp3-a3326c5c7a5fdfcabc6192e9efe59451.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/bonfire/yt1s.com - Bonfire sound effect  no copyright.mp3"
+dest_files=[ "res://.import/yt1s.com - Bonfire sound effect  no copyright.mp3-a3326c5c7a5fdfcabc6192e9efe59451.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

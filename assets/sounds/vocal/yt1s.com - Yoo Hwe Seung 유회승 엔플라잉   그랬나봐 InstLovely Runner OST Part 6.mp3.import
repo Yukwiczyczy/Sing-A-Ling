@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/yt1s.com - Yoo Hwe Seung 유회승 엔플라잉   그랬나봐 InstLovely Runner OST Part 6.mp3-243e134988b00a74befa60b904756175.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/vocal/yt1s.com - Yoo Hwe Seung 유회승 엔플라잉   그랬나봐 InstLovely Runner OST Part 6.mp3"
+dest_files=[ "res://.import/yt1s.com - Yoo Hwe Seung 유회승 엔플라잉   그랬나봐 InstLovely Runner OST Part 6.mp3-243e134988b00a74befa60b904756175.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

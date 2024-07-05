@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/yt1s.com - 엄지 UMJI  이 마음을 전해도 될까 Inst Lovely Runner OST Part 4.mp3-710a48f4f48d1a4bc52a50c26feb4642.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/instrument/yt1s.com - 엄지 UMJI  이 마음을 전해도 될까 Inst Lovely Runner OST Part 4.mp3"
+dest_files=[ "res://.import/yt1s.com - 엄지 UMJI  이 마음을 전해도 될까 Inst Lovely Runner OST Part 4.mp3-710a48f4f48d1a4bc52a50c26feb4642.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/yt1s.com - Car driving  Sound Effect23.mp3-2a34077cc53ac9978170b0f68be240ba.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/car/yt1s.com - Car driving  Sound Effect23.mp3"
+dest_files=[ "res://.import/yt1s.com - Car driving  Sound Effect23.mp3-2a34077cc53ac9978170b0f68be240ba.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

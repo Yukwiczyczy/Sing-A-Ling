@@ -1,0 +1,131 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://assets/user interface/starting screen/tile001.png" type="Texture" id=1]
+[ext_resource path="res://assets/music/yt1s.com - Plain Mat.mp3" type="AudioStream" id=2]
+[ext_resource path="res://assets/user interface/starting screen/tile002.png" type="Texture" id=3]
+[ext_resource path="res://scripts/Menu.gd" type="Script" id=4]
+[ext_resource path="res://assets/Game Assets/Buttons/newgame-btn-pressed.png" type="Texture" id=5]
+[ext_resource path="res://assets/Game Assets/Buttons/play-btn.png" type="Texture" id=6]
+[ext_resource path="res://assets/Game Assets/Buttons/play-btn-pressed.png" type="Texture" id=7]
+[ext_resource path="res://assets/user interface/buttons/menu-btn-active.png" type="Texture" id=8]
+[ext_resource path="res://assets/user interface/buttons/menu-btn-pressed.png" type="Texture" id=9]
+[ext_resource path="res://assets/user interface/starting screen/tile000.png" type="Texture" id=10]
+[ext_resource path="res://assets/Game Assets/Buttons/newgame-btn.png" type="Texture" id=11]
+[ext_resource path="res://assets/Game Assets/Button/menu-btn-pressed.png" type="Texture" id=12]
+[ext_resource path="res://assets/Game Assets/Button/menu-btn-active.png" type="Texture" id=13]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="MainMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 4 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 510.8, 300 )
+scale = Vector2( 0.541667, 0.57037 )
+frames = SubResource( 1 )
+playing = true
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="AnimatedSprite"]
+position = Vector2( 0.019, -107.934 )
+frames = SubResource( 2 )
+playing = true
+
+[node name="newGame Button" type="MarginContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -296.0
+margin_top = 132.0
+margin_right = -5.0
+margin_bottom = 243.0
+rect_scale = Vector2( 0.790853, 0.790853 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="newGame" type="TextureButton" parent="newGame Button"]
+margin_right = 291.0
+margin_bottom = 111.0
+texture_normal = ExtResource( 11 )
+texture_pressed = ExtResource( 5 )
+expand = true
+
+[node name="continue Button" type="MarginContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 72.0
+margin_top = 132.0
+margin_right = 353.0
+margin_bottom = 240.0
+rect_scale = Vector2( 0.818339, 0.818339 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="continue" type="TextureButton" parent="continue Button"]
+margin_right = 281.0
+margin_bottom = 108.0
+texture_normal = ExtResource( 6 )
+texture_pressed = ExtResource( 7 )
+expand = true
+
+[node name="settings" type="MarginContainer" parent="."]
+visible = false
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -1128.0
+margin_top = -56.0
+margin_right = -1088.0
+margin_bottom = -16.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="setting" type="TextureButton" parent="settings"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 9 )
+expand = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+autoplay = true
+
+[node name="TextureButton" type="TextureButton" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -72.0
+margin_top = -64.0
+margin_right = -32.0
+margin_bottom = -24.0
+texture_normal = ExtResource( 13 )
+texture_pressed = ExtResource( 12 )
+expand = true
+
+[connection signal="pressed" from="newGame Button/newGame" to="." method="_on_newGame_pressed"]
+[connection signal="pressed" from="continue Button/continue" to="." method="_on_continue_pressed"]
+[connection signal="pressed" from="TextureButton" to="." method="_on_TextureButton_pressed"]

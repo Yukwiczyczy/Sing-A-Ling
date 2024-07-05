@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/yt1s.com - Applause Crowd Cheering sound effect.mp3-db08408f6586e7e9430e78973184b06a.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/audience/yt1s.com - Applause Crowd Cheering sound effect.mp3"
+dest_files=[ "res://.import/yt1s.com - Applause Crowd Cheering sound effect.mp3-db08408f6586e7e9430e78973184b06a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
